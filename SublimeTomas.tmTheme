@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist"> 
 <!-- default: #75715E , Orange: #ff7300 , light-orange: #fa3e00, black: #101010  #66D9EF  #71d17c #F92672-->
 <plist version="1.0">
 <dict>
@@ -10,7 +11,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#001412</string>				
+				<string>#202020</string>				
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
@@ -24,6 +25,17 @@
 			</dict>
 		</dict>
 		<dict>
+		    <key>name</key>
+		    <string>PHP Tags</string>
+		    <key>scope</key>
+		    <string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>foreground</key>
+		        <string>#f80000</string>
+		    </dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
@@ -31,7 +43,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff7300</string>
+				<string>#a6a6a6</string>
 			</dict>
 		</dict>
 		<dict>
